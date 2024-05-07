@@ -13,3 +13,8 @@ public :
 
 };
 
+class segitiga {
+    int tinggi, alas;
+    
+
+};

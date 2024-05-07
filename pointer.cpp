@@ -21,3 +21,17 @@ class segitiga {
     }
 
 };
+
+int main () {
+    
+    persegiPanjang pp;
+    segitiga sg;
+    cout << "Masukan Panjang : ";
+    cin >> pp.panjang;
+    cout << "Masukan lebar : ";
+    cin >> pp.lebar;
+    cout << "Masukan Tinggi : ";
+    cin >> sg.tinggi;
+    cout << "Masukan alas : ";
+
+}

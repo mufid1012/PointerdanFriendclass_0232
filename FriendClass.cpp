@@ -1,10 +1,10 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 class siswa;
-class orang 
+class orang
 {
+private:
     string nama;
 
 public:
@@ -12,13 +12,25 @@ public:
     friend class siswa;
 };
 
-class siswa 
+class siswa
 {
 private:
     int id;
 
 public:
-    void setId(int pId);
-    void displayAll(orang &a);
-
+    void setid(int pid);
+    void displayAll(orang& a);
 };
+
+void siswa::displayAll(orang& a)
+{
+    cout << id << endl << a.nama;
+}
+void orang::setNama(string pNama)
+{
+    nama = pNama;
+}
+void siswa::setid(int pid)
+{
+    id = pid;
+}
